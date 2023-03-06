@@ -1,6 +1,9 @@
 ### FPS_I_GUESS v2.0
 Full remake of the game from scratch to improve upon various issues, as well as updating the unity version to 2021.3.19f1 to allow the addition of client-server multiplayer.
 
+![image](https://user-images.githubusercontent.com/92086002/223248146-e062eac8-add3-4389-a1b2-a23d99b1dc63.png)
+
+
 ### New additions to the game:
 Input:
 - improved input system (new unity input system)
