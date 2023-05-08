@@ -5,7 +5,7 @@ version 2.1 improves many of the existing scripts with new methods for better fu
 
 Use the project page to see the current progress: https://github.com/users/RWilko31/projects/1
 
-![image](https://user-images.githubusercontent.com/92086002/223248146-e062eac8-add3-4389-a1b2-a23d99b1dc63.png)
+![image](https://github.com/RWilko31/FPS_I_GUESS/blob/FPS_I_GUESS-v2.1/game2.PNG)
 
 
 ### New additions to the game for v2.1:
