@@ -1,0 +1,16 @@
+itemName,acquisition,fallsFrom,chance,priority,preventedBy,craftable,craftItems,itemType,sellValue,value,itemDescription
+bronzeCoin,drop,all,1,3,goldCoin,n,none,currency,0,1,loose change…  Used to buy things 
+silverCoin,drop,all,1,2,nothing,n,none,currency,0,100,Used to buy things
+goldCoin,drop,all,1,1,nothing,n,none,currency,0,10000,Used to buy things
+Jordan's ass,drop,all,100,1,nothing,n,none,item,0,0,pretty shit. gets passed around a lot…
+Cube,drop,cube,4,1,nothing,n,none,item,0,0,You know what you did…..
+Bean shirt,drop,Mega-Bean,5,2,Mega-Bean Trophy,n,none,armour,0,0DEF(all),Beans with fashion
+Bean Trophy,drop,Bean,1,1,nothing,n,none,accessory,0,5_ATK(Bean),Awarded for defeating Bean
+Mega-Bean Trophy,drop,Mega-Bean,4,1,nothing,n,none,accessory,0,5_ATK(Mega-Bean),Awarded for defeating Mega-Bean
+Tera-Bean Trophy,drop,Tera-Bean,3,1,nothing,n,none,accessory,0,5_ATK(Tera-Bean),Awarded for defeating Tera-Bean
+Peta-Bean Trophy,drop,Peta-Bean,2,1,nothing,n,none,accessory,0,10_ATK(Peta-Bean),Awarded for defeating Peta-Bean
+Exa-Bean Trophy,drop,Exa-Bean,2,1,nothing,n,none,accessory,0,50_ATK(Exa-Bean),Awarded for defeating Exa-Bean
+Mini-Bean Trophy,drop,Mini-Bean,2,1,nothing,n,none,accessory,0,5_ATK(Mini-Bean),Awarded for defeating Mini-Bean
+Bean Slayer,craftable,none,0,1,nothing,y,Bean Trophy*10+Mega-Bean Trophy*5+Tera-Bean Trophy+Peta-Bean Trophy+Exa-Bean Trophy+Mini-Bean Trophy*3,accessory,0,100_ATK(BeanType)+20DEF(BeanType),Bean-ware the Bean slayer…
+Holy Helmet of Lord Jordan,craftable,none,0,1,nothing,y,Jordan's ass,armour,0,15_DEF(all),This helmet is holy... it has holes. God knows why Jordan uses it$ but he doesnt now you have it.
+Bean Armour,craftable,none,0,1,nothing,y,Bean Trophy*5,armour,0,4_DEF(BeanType),Armour crafted from the souls of fallen Beans. 

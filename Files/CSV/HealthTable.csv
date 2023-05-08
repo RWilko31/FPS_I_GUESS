@@ -1,0 +1,11 @@
+Entity,Health,EnemyTag,reward
+Player,100,Enemy,0
+Passive,50,None,0
+Bean,50,Player,20
+Mega-Bean,200,Player,500
+Giga-Bean,1000,Player,1250
+Tera-Bean,1750,Player,2000
+Peta-Bean,2500,Player,5000
+Exa-Bean,10000,Player,10000
+Mini-Bean,75,Player,500
+Cube,50,Player,20

@@ -1,0 +1,5 @@
+Attack,Damage,critical
+shot_standard,5,8
+shot_spread,1000,16
+shot_burst,4,6
+shot_auto,3,5
