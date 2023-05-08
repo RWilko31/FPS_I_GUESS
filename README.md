@@ -38,6 +38,6 @@ Input:
 - fixed issues with options. the dropdown options now show correct text when cancelling changes
 
 ### Notes:
-Much of the new additions are still work in progress but functional.
-the current focus is on multiplayer and afterwards more effort will be put into polishing the appearance of the game by creating more models adding some levels and looking into learning to incorporate textures, materials, particle effects and lighting.
+Multiplayer has been put on hold due to the inability to fully test online play due to issues with port forwarding. The current state will remain and be improved at a later date when the base game is more complete.
+The main focus has shifted to fully incorporating the item system and play equipment, and subsequently adding in damage and defense stats. After this effort will be put into polishing the appearance of the game by creating more models adding some levels and looking into learning to incorporate textures, materials, particle effects and lighting.
 
