@@ -1,0 +1,23 @@
+leveldata
+levelname,checkpoint,posx,posy,posz
+Level_Debug,0,-88.71889,-0.2015232,-16.34884
+*end*
+*end*
+*end*
+weapondata
+primary,no_slots
+shotgun,1
+*end*
+ammodata
+weapon,ammo,reserve
+shotgun,8,48
+*end*
+*end*
+itemdata
+item,quantity
+silverCoin,8,
+goldCoin,8,
+Bean Trophy,8,
+Jordan's ass,5,
+*end*
+*end*

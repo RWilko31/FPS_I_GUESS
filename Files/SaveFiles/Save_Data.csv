@@ -1,0 +1,17 @@
+leveldata,,,,
+levelname,checkpoint,posx,posy,posz
+level_debug,0,0,0,0
+*end*,,,,
+healthdata,,,,
+health,shield,,,
+100,100,,,
+*end*,,,,
+ammodata,,,,
+weapon,ammo,reserve,,
+pistol,8,80,,
+shotgun,6,60,,
+*end*,,,,
+weapondata,,,,
+primary,no_slots,,,
+shotgun,3,,,
+*end*,,,,

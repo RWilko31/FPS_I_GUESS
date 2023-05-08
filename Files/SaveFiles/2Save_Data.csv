@@ -1,0 +1,29 @@
+leveldata
+levelname,checkpoint,posx,posy,posz
+Level_Debug,0,-21.73469,0.4554827,37.20548
+*end*
+*end*
+*end*
+weapondata
+primary,no_slots
+shotgun,1
+*end*
+ammodata
+weapon,ammo,reserve
+shotgun,8,48
+*end*
+*end*
+itemdata
+item,quantity
+silverCoin,132,
+goldCoin,132,
+Bean Trophy,43,
+Tera-Bean Trophy,2,
+Mega-Bean Trophy,5,
+Peta-Bean Trophy,2,
+Mini-Bean Trophy,3,
+Jordan's ass,1,
+Exa-Bean Trophy,2,
+Bean shirt,1,
+*end*
+*end*
