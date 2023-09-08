@@ -6,7 +6,7 @@ version 2.1.2 - Updated the weapon system and interact system to incorporate SOL
 
 Use the project page to see the current progress: https://github.com/users/RWilko31/projects/1
 
-![image](https://github.com/RWilko31/FPS_I_GUESS/blob/FPS_I_GUESS-v2.1.2/game3.PNG)
+![image](https://github.com/RWilko31/FPS_I_GUESS/blob/FPS_I_GUESS-v2.1.2/game3.png)
 
 ### New additions to the game for 2.1.2:
 **Interact system**
