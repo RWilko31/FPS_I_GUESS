@@ -20,11 +20,11 @@ Use the project page to see the current progress: https://github.com/users/RWilk
 - Greatly increased reusablity by implementing multiple inhertance classes. There are now generic Weapon classes that define parameters for any weapon, and attack classes that define the attack performed by the weapon. The attack class is attached to the weapon class allowing it to be freely swapped out for other attacks during runtime. This allows full customisability between melee and ranged weapons as well as upgrading by swapping the attacks
  
 **Character movement**
--Implemented basic step-offset allowing the player to climb up and down stairs without sloped colliders underneath. This is still in development and is currently quite jittery
+- Implemented basic step-offset allowing the player to climb up and down stairs without sloped colliders underneath. This is still in development and is currently quite jittery
 
 **Input sytem**
--Created events for inputs where applicable. This means scripts no longer need to be referenced by the Input system to be triggered instead each subscribing to the events and being triggered automatically.
--Created stsatic variables for remaining inputs (move input, look input) to prevent the need to refernce the input manager on scripts not requiring it otherwise.
+- Created events for inputs where applicable. This means scripts no longer need to be referenced by the Input system to be triggered instead each subscribing to the events and being triggered automatically.
+- Created stsatic variables for remaining inputs (move input, look input) to prevent the need to refernce the input manager on scripts not requiring it otherwise.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
