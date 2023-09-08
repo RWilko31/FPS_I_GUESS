@@ -1,0 +1,43 @@
+Interact system documentation:
+
+Main Scripts:
+1. Interact (script)
+2. InteractText (script)
+
+Sub-scripts / layouts:
+1. IconLayout
+
+Interfaces:
+1. IInteractFunction
+2. IActivateFunction
+3. IObjectFunction
+
+Main Scripts:
+
+Interact.
+The interact script is the component put on the player to detect 
+nearby interactable objects and initiate the interaction.
+
+in order to interact the interacted object must have a script inheriting the IInteractFunction interface,
+the behaviour of the object can then be placed within the inherited interact function.
+
+IActivate function can be inherited as well as IInteractable to allow objects to have 2 behaviours triggered by the player.
+
+IObjectFunction is intended to be used with the IActivateFunction.activate() triggering the IObjectFunction.Function().
+This allows an objects function to be defined in a seperate script and easily swapped.
+
+InteractText:
+The interactText script deals with showing all text on the screen.
+If the component is attached with the Interact script, the interact script will send the data to display the relevent text. 
+convert to a string on screen.
+
+The InteractText script has 3 main functions to be accessed.
+
+getSymbol(inputName input) - this returns the symbol code for the given input enum. This also automatically switches the iconMap for the current inputDevice.
+If a new device is being used an iconMap and iconLayout will need to be provided for the device or else the default keyboard map will be used. 
+icon layouts can be added to the list or to an empty gameobject provided to the script as the iconLayoutContainer. any layouts already in the list will not be added twice.
+
+setext(string displayText) - this function is used to update the display text to the provided string. This allows any text to be shown by calling the function and providing the string.
+in order to show controller icons the getSymbol function can be used to get the correct icon string and update the iconMap to the current device.
+
+toggleText(bool showText) - this function will set the text visability to the given state.
