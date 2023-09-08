@@ -1,14 +1,34 @@
-### FPS_I_GUESS v2.1
+### FPS_I_GUESS v2.1.2
 Full remake of the game from scratch to improve upon various issues, as well as updating the unity version to 2021.3.19f1 to allow the addition of client-server multiplayer.
 
-version 2.1 improves many of the existing scripts with new methods for better functionality and more efficient code.
+version 2.1 - improves many of the existing scripts with new methods for better functionality and more efficient code.
+version 2.1.2 - Updated the weapon system and interact system to incorporate SOLID principles and to reduce code.
 
 Use the project page to see the current progress: https://github.com/users/RWilko31/projects/1
 
-![image](https://github.com/RWilko31/FPS_I_GUESS/blob/FPS_I_GUESS-v2.1/game2.PNG)
+![image](https://github.com/RWilko31/FPS_I_GUESS/blob/FPS_I_GUESS-v2.1.2/game3.PNG)
 
+### New additions to the game for 2.1.2:
+**Interact system**
+- Full redesign from the ground up
+- Changed interact detection to use dot product and thresholding to calculate which object is being looked at
+- Changed code to use SOLID principles which greatly reduces the amount of code executed
+- Implemented an interact interface. This means each object can use its own unique script instead of sharing the same across all objects
 
-### New additions to the game for v2.1:
+**Weapon system**
+- Full redesign maintaining the original functionality
+- Greatly increased reusablity by implementing multiple inhertance classes. There are now generic Weapon classes that define parameters for any weapon, and attack classes that define the attack performed by the weapon. The attack class is attached to the weapon class allowing it to be freely swapped out for other attacks during runtime. This allows full customisability between melee and ranged weapons as well as upgrading by swapping the attacks
+ 
+**Character movement**
+-Implemented basic step-offset allowing the player to climb up and down stairs without sloped colliders underneath. This is still in development and is currently quite jittery
+
+**Input sytem**
+-Created events for inputs where applicable. This means scripts no longer need to be referenced by the Input system to be triggered instead each subscribing to the events and being triggered automatically.
+-Created stsatic variables for remaining inputs (move input, look input) to prevent the need to refernce the input manager on scripts not requiring it otherwise.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### New additions to the game for v2.1.:
 Input:
 - input has now been given its own script to avoid each script requiring its own input components and having to switch control schemes in multiple scripts
 
