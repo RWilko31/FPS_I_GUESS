@@ -1,0 +1,6 @@
+Weapon_Name,Attack,MagSize,ReserveAmmo,ShootTime,ReloadTime,SwapTime,AimPos_x,AimPos_y,AimPos_z,HipPos_x,HipPos_y,HipPos_z
+pistol,semi,12,180,0.2,0.1,0.2,-0.06,-0.12,0.5,0.28,-0.23,0.5
+sniper,burst,9,90,0.2,1.5,0.4,0,-0.24,0.65,0.2,-0.2,0.65
+minigun,auto,150,750,0.05,3.5,0.75,0,0,0,0.18,-0.65,1
+shotgun,Shot,8,48,0.4,2,0.4,0,-0.2,0.7,0.16,-0.24,0.7
+shitgun,auto,22,220,0.3,0.75,0.4,0,-0.9,0.35,0.16,-1,0.3
